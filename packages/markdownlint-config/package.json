@@ -1,0 +1,14 @@
+{
+  "name": "markdownlint-config",
+  "version": "0.0.0",
+  "description": "文档规范配置",
+  "license": "ISC",
+  "author": "tangtangLittle <lee294109193@163.com>",
+  "main": "index.json",
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.40.0"
+  }
+}
