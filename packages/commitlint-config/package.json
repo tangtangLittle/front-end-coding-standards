@@ -1,5 +1,5 @@
 {
-  "name": "commitlint-config",
+  "name": "fe-commitlint-config",
   "version": "0.0.0",
   "description": "Git提交信息规范",
   "keywords": [

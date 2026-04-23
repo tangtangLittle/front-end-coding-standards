@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/tangtangLittle/front-end-coding-standards#readme",
+  "bugs": {
+    "url": "https://github.com/tangtangLittle/front-end-coding-standards/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangtangLittle/front-end-coding-standards.git"
+  },
+  "license": "ISC",
+  "author": "tangtangLittle <lee294109193@163.com>",
+  "main": "lib/eslint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/eslint-config.test.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  }
+}

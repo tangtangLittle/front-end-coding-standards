@@ -1,0 +1,39 @@
+{
+  "name": "stylelint-config",
+  "version": "1.0.0",
+  "description": "css规范",
+  "homepage": "https://github.com/tangtangLittle/front-end-coding-standards#readme",
+  "bugs": {
+    "url": "https://github.com/tangtangLittle/front-end-coding-standards/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangtangLittle/front-end-coding-standards.git"
+  },
+  "license": "ISC",
+  "author": "tangtangLittle <lee294109193@163.com>",
+  "main": "lib/stylelint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
+  }
+}
