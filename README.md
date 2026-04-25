@@ -34,7 +34,7 @@
 
 | 规范                                                              | Lint 工具                                                      | npm 包                                                                                       |
 | ----------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| JavaScript 编码规范 <br/> typescript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [encode-fe-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config)             |
+| JavaScript 编码规范 <br/> typescript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                                  | [front-end-commitlint-config](https://www.npmjs.com/package/front-end-commitlint-config)     |
 | CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                             | [encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config)       |
 | Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                     | [encode-fe-commitlint-config](https://www.npmjs.com/package/encode-fe-commitlint-config)     |
 | 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint)     | [encode-fe-markdownlint-config](https://www.npmjs.com/package/encode-fe-markdownlint-config) |

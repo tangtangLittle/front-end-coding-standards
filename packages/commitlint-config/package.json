@@ -1,12 +1,11 @@
 {
-  "name": "fe-commitlint-config",
+  "name": "front-end-commitlint-config",
   "version": "0.0.0",
   "description": "Git提交信息规范",
   "keywords": [
     "commit",
     "lint"
   ],
-  "homepage": "",
   "license": "ISC",
   "author": "tangtangLittle <lee294109193@163.com>",
   "main": "lib/commitlint-config.js",
@@ -21,5 +20,8 @@
   },
   "scripts": {
     "prepare": "husky"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^9.3.1"
   }
 }
