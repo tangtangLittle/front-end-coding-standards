@@ -1,0 +1,38 @@
+{
+  "name": "eslint-plugin",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "homepage": "https://github.com/tangtangLittle/front-end-coding-standards#readme",
+  "bugs": {
+    "url": "https://github.com/tangtangLittle/front-end-coding-standards/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangtangLittle/front-end-coding-standards.git"
+  },
+  "license": "ISC",
+  "author": "tangtangLittle <lee294109193@163.com>",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "npm run test"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.4",
+    "require-all": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0"
+  }
+}

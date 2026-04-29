@@ -1,2 +1,10 @@
 packages:
   - "packages/*"
+allowBuilds:
+  '@parcel/watcher': true
+  core-js: true
+  esbuild: true
+  fsevents: true
+  highlight.js: true
+  nx: true
+  vuepress: true

@@ -121,6 +121,22 @@ importers:
         specifier: ^7.3.0
         version: 7.11.0(eslint@8.57.1)
 
+  packages/eslint-plugin:
+    dependencies:
+      fs-extra:
+        specifier: ^11.3.4
+        version: 11.3.4
+      require-all:
+        specifier: ^3.0.0
+        version: 3.0.0
+    devDependencies:
+      eslint:
+        specifier: ^8.57.1
+        version: 8.57.1
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@25.5.0)(ts-node@10.9.2(@types/node@25.5.0)(typescript@5.9.3))
+
   packages/markdownlint-config:
     dependencies:
       markdownlint:
@@ -7131,6 +7147,10 @@ packages:
     resolution: {integrity: sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==}
     engines: {node: '>= 6'}
     deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
+
+  require-all@3.0.0:
+    resolution: {integrity: sha512-jPGN876lc5exWYrMcgZSd7U42P0PmVQzxnQB13fCSzmyGnqQWW4WUz5DosZ/qe24hz+5o9lSvW2epBNZ1xa6Fw==}
+    engines: {node: '>= 0.8'}
 
   require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
@@ -17717,6 +17737,8 @@ snapshots:
       tough-cookie: 2.5.0
       tunnel-agent: 0.6.0
       uuid: 3.4.0
+
+  require-all@3.0.0: {}
 
   require-directory@2.1.1: {}
 
